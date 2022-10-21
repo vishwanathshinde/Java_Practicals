@@ -30,3 +30,29 @@ class ColorPoint extends Point
         System.out.println("Color is: "+color);
     }
 }
+
+class Point3D extends Point
+{
+    int z;
+    public Point3D(int x, int y, int z)
+    {
+        super(x,y);
+        this.z=z;
+    }
+    public void display()
+    {
+        super.display();
+        System.out.println("The co-ordinate of Z is: "+z);
+    }
+} 
+
+public class A1
+{
+    public static void main(String[] args)
+    {
+        Point3D obj1 = new Point3D(6, 4, 8);
+        obj1.display();
+        ColorPoint obj2 = new ColorPoint("Black");
+        obj2.display();
+    }
+}
