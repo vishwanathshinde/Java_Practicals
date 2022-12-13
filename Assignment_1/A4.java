@@ -16,7 +16,7 @@ public class A4
     }
     public void display()
     {
-        System.out.println("Date is: "+dd+" "+mm+" "+yy);
+        System.out.println("Date is: "+dd+"-"+mm+"-"+yy);
     }
     public static void main(String[] args) throws Exception
     {

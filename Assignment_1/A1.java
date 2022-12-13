@@ -1,3 +1,4 @@
+//Multiplication Table
 import java.io.*;
 
 public class A1

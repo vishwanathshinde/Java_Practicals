@@ -1,3 +1,4 @@
+// Array elements sum and printing in ascending order
 import java.util.*;
 import java.io.*;
 
@@ -12,10 +13,9 @@ public class A3
         {
             sum = sum + arr[i];
         }
-
         System.out.println("Sum is: "+sum);
-        int temp = 0;
 
+        int temp = 0;
         for(int i=0; i<arr.length; i++)
         {
             for(int j=0; j<arr.length; j++)

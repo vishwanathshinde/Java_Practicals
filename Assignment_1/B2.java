@@ -1,3 +1,4 @@
+// Store info of 5 Employee use array of objects
 import java.util.*;
 
 class Employee
