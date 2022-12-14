@@ -15,7 +15,7 @@ class Point
     }
     public void display()
     {
-        System.out.println("Co-ordinate of x and y is: "+ x + "\n" + y);
+        System.out.println("Co-ordinate of x and y is: "+ x + "," + y);
     }
 }
 class ColorPoint extends Point
@@ -42,7 +42,7 @@ class Point3D extends Point
     public void display()
     {
         super.display();
-        System.out.println("The co-ordinate of Z is: "+z);
+        System.out.println("The co-ordinate of x , y and Z is: "+x+","+y+","+z);
     }
 } 
 
